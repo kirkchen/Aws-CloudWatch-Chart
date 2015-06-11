@@ -4,7 +4,7 @@
   "description": "A customizable aws cloudwatch chart.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server/app.js"
   },
   "repository": {
     "type": "git",
