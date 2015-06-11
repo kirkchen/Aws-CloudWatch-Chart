@@ -19,7 +19,11 @@
   "dependencies": {
     "aws-sdk": "^2.1.33",
     "body-parser": "^1.12.4",
+    "connect-browserify": "^4.0.0",
     "express": "^4.12.4",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.23.2",
+    "reactify": "^1.1.1"
   }
 }
