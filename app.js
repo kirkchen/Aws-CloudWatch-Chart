@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express');
 var bodyParser = require('body-parser');
 
@@ -8,13 +10,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Routes
-var cloudWatchService = require('./services/cloudWatchService');
-app.post('/api/getMetrics', function (req, res) {
-  cloudWatchService.getMetrics(req.body.instanceId, req.body.instanceName, req.body.startTime, req.body.endTime)
-    .then(function (data) {
-      res.json(data);
-    });
-});
+require('./routes')(app);
 
 // Start App
 var server = app.listen(3000, function () {
