@@ -1,0 +1,25 @@
+{
+  "name": "Aws-CloudWatch-Chart",
+  "version": "0.0.1",
+  "description": "A customizable aws cloudwatch chart.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirkchen/Aws-CloudWatch-Chart.git"
+  },
+  "author": "Kirk Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirkchen/Aws-CloudWatch-Chart/issues"
+  },
+  "homepage": "https://github.com/kirkchen/Aws-CloudWatch-Chart",
+  "dependencies": {
+    "aws-sdk": "^2.1.33",
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "q": "^1.4.1"
+  }
+}
